@@ -1,0 +1,44 @@
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f4;
+    position: relative; /* Set relative positioning for the body */
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3C3D37;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border: white solid 1px;
+    position: absolute; /* Position it absolutely */
+    top: 20px; /* Space from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Offset the element to be exactly centered */
+}
+
+.card-icon {
+    font-size: 40px;
+    color: #4caf50;
+}
+
+.card-info {
+    text-align: right;
+}
+
+.card-info h2 {
+    margin: 0;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.card-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffff;
+}
